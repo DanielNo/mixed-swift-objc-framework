@@ -20,7 +20,7 @@
 - (void)doSomething;
 {
     NSLog(@"Baz");
-    [[[Bar alloc] init] doSomething];
+//    [[[Bar alloc] init] doSomething];
     NSLog(@"%@", [[Norf alloc] init]);
 }
 
